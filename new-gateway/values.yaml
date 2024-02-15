@@ -8,7 +8,8 @@ image:
   #repository: gcr.io/heptio-images/ks-guestbook-demo
   repository: docker.io/hemantkumar1987/my-spring-cloud-gateway
   #tag: 0.1
-  tag: 1.0.0.1
+  #tag: 1.0.0.1
+  tag: latest
   pullPolicy: IfNotPresent
 
 #containerPort: 80
