@@ -18,7 +18,8 @@ containerPort: 8080
   
 
 service:
-  type: NodePort
+  #type: NodePort
+  type: LoadBalancer
   port: 8080
 
 health:
