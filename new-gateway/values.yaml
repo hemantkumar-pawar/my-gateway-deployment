@@ -19,6 +19,7 @@ containerPort: 8080
 
 service:
   #type: NodePort
+  # AWS Creates NLB - Network Load Balancer for type:LoadBalancer
   type: LoadBalancer
   port: 8080
 
